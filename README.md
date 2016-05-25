@@ -14,7 +14,7 @@ Preprocessing, training and test scripts
   pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.8.0-cp27-none-linux_x86_64.whl
   pip install keras
   ```
-
-4. Follow instructions in http://keras.io/backend/ to swith backend in Keras (Or maybe you don't have to?)
-5. Fire up your iPython/whateveritscalled server and start playing with the workbook.
-6. Improve the models and earn $$$
+4. Ignore a billion warnings while keras installation compiles stuff for you.
+5. Follow instructions in http://keras.io/backend/ to swith backend in Keras (Or maybe you don't have to?)
+6. Fire up your iPython/whateveritscalled server and start playing with the workbook.
+7. Improve the models and earn $$$
