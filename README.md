@@ -15,6 +15,9 @@ Preprocessing, training and test scripts
   pip install keras
   ```
 4. Ignore a billion warnings while keras installation compiles stuff for you.
-5. Follow instructions in http://keras.io/backend/ to swith backend in Keras (Or maybe you don't have to?)
+5. Follow instructions in http://keras.io/backend/ to swith backend in Keras (Or maybe you don't have to?). At the moment it works like this:
+   ```
+   echo '{"epsilon": 1e-07, "floatx": "float32", "backend": "tensorflow"}' > /.keras/keras.json
+   ```
 6. Fire up your iPython/whateveritscalled server and start playing with the workbook.
 7. Improve the models and earn $$$
